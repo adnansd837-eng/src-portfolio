@@ -1,0 +1,53 @@
+[
+  {
+    "category": "Cloud Computing",
+    "skills": [
+      { "name": "AWS (Amazon Web Services)", "level": 80, "icon": "SiAmazonaws", "details": "EC2, S3, RDS, IAM, VPC, Route53, ECS" },
+      { "name": "Google Cloud Platform", "level": 50, "icon": "SiGooglecloud", "details": "Compute Engine, Cloud Storage, IAM" }
+    ]
+  },
+  {
+    "category": "Containers & Orchestration",
+    "skills": [
+      { "name": "Docker", "level": 90, "icon": "SiDocker", "details": "Dockerfiles, Docker Compose, Multi-stage builds" },
+      { "name": "Kubernetes", "level": 75, "icon": "SiKubernetes", "details": "Pods, Deployments, Services, Helm, ConfigMaps" }
+    ]
+  },
+  {
+    "category": "CI/CD & Automation",
+    "skills": [
+      { "name": "GitHub Actions", "level": 85, "icon": "SiGithubactions", "details": "Workflow Automation, Custom Runner setup" },
+      { "name": "Jenkins", "level": 70, "icon": "SiJenkins", "details": "Pipeline-as-code, Declarative Pipelines" }
+    ]
+  },
+  {
+    "category": "Infrastructure as Code",
+    "skills": [
+      { "name": "Terraform", "level": 75, "icon": "SiTerraform", "details": "Modules, State management, AWS Provider" },
+      { "name": "Ansible", "level": 70, "icon": "SiAnsible", "details": "Playbooks, Roles, Inventory management" }
+    ]
+  },
+  {
+    "category": "Linux & OS Foundations",
+    "skills": [
+      { "name": "Linux Administration", "level": 85, "icon": "SiLinux", "details": "Bash Scripting, Systemd, Cron jobs, SSH" },
+      { "name": "Git & GitHub", "level": 90, "icon": "SiGit", "details": "Branching strategies, Rebase, PR workflows" }
+    ]
+  },
+  {
+    "category": "Programming Languages",
+    "skills": [
+      { "name": "Python", "level": 80, "icon": "SiPython", "details": "Scripting, Automation, Boto3, APIs" },
+      { "name": "Bash Shell Scripting", "level": 85, "icon": "SiPowershell", "details": "Automation scripts, log parsing, tasks" },
+      { "name": "Java / JavaScript", "level": 75, "icon": "SiJavascript", "details": "Core Java, ES6+, TypeScript basics" }
+    ]
+  },
+  {
+    "category": "Databases & Web Technologies",
+    "skills": [
+      { "name": "SQL & PostgreSQL", "level": 75, "icon": "SiPostgresql", "details": "Relational schemas, queries, optimization" },
+      { "name": "MongoDB", "level": 70, "icon": "SiMongodb", "details": "NoSQL document storage, schemas" },
+      { "name": "React.js & Tailwind CSS", "level": 80, "icon": "SiReact", "details": "Modern frontends, responsive layouts" }
+    ]
+  }
+]

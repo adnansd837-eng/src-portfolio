@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Linux Administration",
+    "subtitle": "Foundations of Systems",
+    "date": "Month 1-2",
+    "description": "Mastered Linux file system structure, permissions, systemd services, cron jobs, network configuration, and shell scripting with Bash for automation.",
+    "icon": "SiLinux"
+  },
+  {
+    "id": 2,
+    "title": "Git & GitHub Workflow",
+    "subtitle": "Version Control & Collaboration",
+    "date": "Month 3",
+    "description": "Learned advanced branching strategies, rebase operations, resolve merge conflicts, pull request reviews, and integrating webhook triggers.",
+    "icon": "SiGit"
+  },
+  {
+    "id": 3,
+    "title": "Docker Containers",
+    "subtitle": "Application Containerization",
+    "date": "Month 4-5",
+    "description": "Studied container concepts, writing highly optimized Dockerfiles, managing Docker volumes, custom networks, and orchestration via Docker Compose.",
+    "icon": "SiDocker"
+  },
+  {
+    "id": 4,
+    "title": "Cloud Computing (AWS)",
+    "subtitle": "Cloud Infrastructure",
+    "date": "Month 6-8",
+    "description": "Gained hands-on experience provisioning and securing AWS resources (VPC, EC2, S3, RDS, IAM) and deploying static and dynamic workloads.",
+    "icon": "SiAmazonaws"
+  },
+  {
+    "id": 5,
+    "title": "CI/CD Pipelines",
+    "subtitle": "Automated Deployments",
+    "date": "Month 9",
+    "description": "Built CI/CD pipelines using GitHub Actions and Jenkins. Automated testing, building Docker images, uploading to ECR/DockerHub, and deploying.",
+    "icon": "SiGithubactions"
+  },
+  {
+    "id": 6,
+    "title": "Kubernetes Orchestration",
+    "subtitle": "Container Management at Scale",
+    "date": "Month 10-11",
+    "description": "Configured Kubernetes clusters, writing deployment and service YAMLs, managing configurations via ConfigMaps/Secrets, and running stateful applications.",
+    "icon": "SiKubernetes"
+  },
+  {
+    "id": 7,
+    "title": "Infrastructure as Code & Config",
+    "subtitle": "Terraform & Ansible",
+    "date": "Month 12+",
+    "description": "Standardized environments with Terraform (IaC) for infrastructure provisioning and Ansible for automated configuration management and server scaling.",
+    "icon": "SiTerraform"
+  }
+]
