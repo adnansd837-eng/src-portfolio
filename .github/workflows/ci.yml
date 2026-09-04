@@ -24,14 +24,12 @@ jobs:
         run: npm install --force
         working-directory: .
 
-      - name: run linter
-        run: npm run build
-        working-directory: .
-      
-      - name: run test
-        run: npm run dev
-        working-directory: .
+      - name: Install dependencies
+        run: npm ci
 
+      - name: Build frontend
+        run: npm run build
+  
       - name: preview
         run: npm run preview
         working-directory: .
