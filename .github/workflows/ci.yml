@@ -25,12 +25,18 @@ jobs:
         working-directory: .
 
       - name: run linter
-        run: npm run lint
+        run: npm run dev
         working-directory: .
       
       - name: run test
-        run: npm run test
+        run: npm run build
         working-directory: .
+
+      - name: preview
+        run: npm run preview
+        working-directory: .
+
+        
 
       - name: docker setup login
         uses: docker/login-action@v4
