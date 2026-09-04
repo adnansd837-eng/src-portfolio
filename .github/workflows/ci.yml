@@ -25,11 +25,11 @@ jobs:
         working-directory: .
 
       - name: run linter
-        run: npm run dev
+        run: npm run build
         working-directory: .
       
       - name: run test
-        run: npm run build
+        run: npm run dev
         working-directory: .
 
       - name: preview
