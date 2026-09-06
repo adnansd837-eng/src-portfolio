@@ -5,6 +5,8 @@ on:
     #   - '**'                 # Monitor all files in the repository..
     #   - '!.github/workflows/**'
     branches: [main]
+  schedule:
+    - cron: '0 7 * * *'
 
 jobs:
   frontend:
