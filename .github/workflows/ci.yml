@@ -6,7 +6,7 @@ on:
     #   - '!.github/workflows/**'
     #branches: [main]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/3 * * * *'
   workflow_dispatch: 
 jobs:
   frontend:
