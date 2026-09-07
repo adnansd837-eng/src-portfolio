@@ -1,12 +1,12 @@
 name: ci
 on: 
-  push:
+  #push:
     # paths:
     #   - '**'                 # Monitor all files in the repository..
     #   - '!.github/workflows/**'
-    branches: [main]
+    #branches: [main]
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   frontend:
